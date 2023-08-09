@@ -1,3 +1,6 @@
 .cabecalho_menu-hamburger{
-    background-image: url(..imagem/menu);
+    width: 24px;
+    height: 24px;
+    background-image: url(../imagem/Menu.svg.png);
+    display: inline-block;
 }
