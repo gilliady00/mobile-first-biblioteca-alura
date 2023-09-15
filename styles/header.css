@@ -24,10 +24,6 @@ h1{
     display: none;
 }
 
-.div-imagem{
-    padding: 1em;
-}
-
 .lista-menu{
     display: block;
     position: absolute;
@@ -36,6 +32,18 @@ h1{
 
 .lista-menu-titulo, .lista-menu-item{
     padding: 1em;
+    background-color: var(--branco);
+}
+
+lista-menu-titulo{
+    color: var(--amarelo);
+}
+
+.lista-menu-link{
+    background-color: var(--roxo);
+    background-clip: text;
+    text-transform: uppercase;
+}
 
 .div-1{
     display: flex;
@@ -43,19 +51,9 @@ h1{
 }
 
 .lista-menu{
-    display: block;
-    position: absolute;
-    background-color: var(--branco);
-
+    display: none;
 }
 
-.lista-menu-titulo{
-    color: var(--amarelo);
-}
-
-.lista-menu-link{
-    background-color: var(--roxo);
-}
 
 .div-menu{
     display: none;
