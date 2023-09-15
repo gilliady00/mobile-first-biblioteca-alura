@@ -24,7 +24,9 @@ h1{
     display: none;
 }
 
-
+.div-imagem{
+    padding: 1em;
+}
 
 .lista-menu{
     display: block;
@@ -44,6 +46,10 @@ h1{
 
 .lista-menu-link{
     background-color: var(--roxo);
+}
+
+.div-menu{
+    display: none;
 }
 
 @media screen and (min-width:1024px) {
