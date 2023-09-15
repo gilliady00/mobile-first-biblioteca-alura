@@ -36,6 +36,15 @@ h1{
 
 .lista-menu-titulo, .lista-menu-item{
     padding: 1em;
+
+.div-1{
+    display: flex;
+    align-items: center;
+}
+
+.lista-menu{
+    display: block;
+    position: absolute;
     background-color: var(--branco);
 
 }
