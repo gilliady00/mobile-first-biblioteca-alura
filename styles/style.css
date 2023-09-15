@@ -3,9 +3,15 @@
 :root{
     --cor-de-fundo: #ebecee;
     --branco: #FFFFFF;
+    --amarelo: #FECD2F;
+    --roxo: #733887;
+    --fonte_principal: "poppins"
 }
 body{
     background-color: var(--cor-de-fundo);
+    font-family: var(--fonte_principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 h1{
